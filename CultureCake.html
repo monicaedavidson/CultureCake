@@ -1,0 +1,83 @@
+!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <title>Culture Cake</title>
+      <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
+      <link type="text/css" rel="stylesheet" href="base.css"/>
+      <link type="text/css" rel="stylesheet" href="modules.css"/>
+  </head>     
+
+  <body>
+    <div id="wrapper">
+      <header class="header--fixed">
+        <h1 class="header__logo"><a href="CultureCake.html">Culture Cake</a></h1>
+        <nav class="main-nav">
+          <ul class="main-nav__places-about-login">
+            <li class="main-nav__places"><a id="places" href="places.html">Places</a></li>
+              <ul id="dropdown-menu" class="places-dropdown--hover">
+                <li class="places-dropdown--hover__city"><a href="seattle.html">Seattle</a></li>
+                <li class="places-dropdown--hover__city"><a href="paris.html">Paris</a></li>
+                <li class="places-dropdown--hover__city"><a href="mumbai.html">Mumbai</a></li>
+                <li class="places-dropdown--hover__city"><a href="tokyo.html">Tokyo</a></li>
+                <li class="places-dropdown--hover__city"><a href="capetown.html">Cape Town</a></li>
+                <li class="places-dropdown--hover__city"><a href="rio.html">Rio</a></li>
+              </ul>
+            </li>
+            <li class="main-nav__about"><a href="aboutUs.html">About</a></li>
+            <li id="login" class="main-nav__login--hover"><a href="login.html">Login</a></li>
+          </ul>
+        </nav>  
+      </header>
+
+      <article class="world-map">
+        <section class="city-icons--visible">
+          <img class="world-map__image"/>
+          <img id="mumbai" class="city-icon--mouseover" src="images/home_page/calendula-flower.png"/>
+          <img id="tokyo" class="city-icon--mouseover" src="images/home_page/cherry-image.png"/>
+          <img id="rio" class="city-icon--mouseover" src="images/home_page/parrot-image.png"/>
+          <img id="paris" class="city-icon--mouseover" src="images/home_page/macaron-image.png"/>
+          <img id="seattle" class="city-icon--mouseover" src="images/home_page/evergreen-image.png"/>
+          <img id="cape_town" class="city-icon--mouseover" src="images/home_page/protea-image.png"/>
+
+        </section>
+
+        <section class="city-bubbles--hidden">
+
+          <h3><a id="mumbai" href="mumbai.html" class="city-bubbles__city">Mumbai</a></h3>
+          <h3><a id="tokyo" href="tokyo.html" class="city-bubbles__city">Tokyo</a></h3>
+          <h3><a id="rio" href="rio.html" class="city-bubbles__city">Rio</a></h3>
+          <h3><a id="paris" href="paris.html" class="city-bubbles__city">Paris</a></h3>
+          <h3><a id="seattle" href="seattle.html" class="city-bubbles__city">Seattle</a></h3>
+          <h3><a id="cape_town" href="capetown.html" class="city-bubbles__city">Cape Town</a></h3>
+
+        </section>
+
+      </article>
+
+      <form id="form" class="sign-up">
+        <ul>
+          <li class="sign-up__fields"><input class="form-input" type="text" placeholder="email"</li>
+          <li class="sign-up__fields"><input class="form-input" type="text" placeholder="choose a password"</li>
+        </ul>
+        <button class="sign-up__button" type="button">Sign In</button>
+        <button class="sign-up__button login" type="button">Log in</button>
+      </form>
+
+      <footer class="connect">
+
+        <!-- <ul class="social-media">
+          <li class-"social-media__facebook"><a href="link to facebook"><img src="icon"></a></li>
+          <li class-"social-media__twitter"><a href="link to twitter"><img src="icon"></a></li>
+          <li class-"social-media__pinterest"><a href="link to pinterest"><img src="icon"></a></li>
+          <li class-"social-media__linkedin"><a href="link to linkedin"><img src="icon"></a></li>
+          <li class-"social-media__contact"><a href="popup_link">Say Hello</a></li> 
+        </ul> -->
+        
+      </footer>
+
+    </div> 
+    <script src="CultureCake.js"></script>
+  </body>
+</html>
