@@ -67,9 +67,3 @@ elLogin.addEventListener('mouseover', displayForm, false);
 
 var elSignInButton = document.getElementById('sign-in');
 elSignInButton.addEventListener('click', hideForm, false);
-
-
-
-
-
-
