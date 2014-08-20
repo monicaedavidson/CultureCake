@@ -85,61 +85,78 @@ header {
 }
 
 .city-trigger--mouseover {
-  height: 100px;
-  width: 100px;
+  height: 40px; 
+  width: 40px;
   position: absolute;
 }
 
 #rio {
-  margin-left: 36%;
-  margin-top: 30%;
+  margin: 32% 0 0 37%; /* improved location */
 }
 
 .rio {
   background: url(images/rio/rio_2.jpg) center no-repeat;
+  position: relative;  /* put mouseover position inside bubble */
+  top: -30px;
+  left: -30px;
 }
 
 #seattle {
-  margin: 9% 0 0 14.5%;
-  color: grey;
+  margin: 13.5% 0 0 16.5%; /* improved location */
+  color: gray;
 }
 
 .seattle {
   background: url(images/seattle/seattle_6.jpg) center no-repeat;
+  position: relative;  /* put mouseover position inside bubble */
+  top: -50px;
+  left: -50px;
 }
 
 #tokyo {
-  margin: 15% 0 0 79%;
+  margin: 16.25% 0 0 82%;
 }
 
 .tokyo {
   background: url(images/tokyo/tokyo_7.jpg) center no-repeat;
+  position: relative;  /* put mouseover position inside bubble */
+  top: -50px;
+  left: -50px;
 }
 
 #paris {
-  margin: 12% 0 0 45%;
+  margin: 13% 0 0 47.5%;
 }
 
 .paris {
   background: url(images/paris/paris_1.jpg) center no-repeat;
   background-size: 100%;
+  position: relative;  /* put mouseover position inside bubble */
+  top: -50px;
+  left: -50px;
 }
 
 #mumbai {
-  margin: 20% 0 0 63%;
-  color: grey;
+  margin: 22% 0 0 65%;
+  color: gray;
 }
 
 .mumbai {
   background: url(images/mumbai/mumbai_4.jpg) center no-repeat;
+  position: relative;  /* put mouseover position inside bubble */
+  top: -50px;
+  left: -50px;
 }
 
 #cape_town {
-  margin: 39% 0 0 52%;
+  margin: 41% 0 0 52%;
 }
 
 .cape_town {
   background: url(images/capetown/ct_4.jpg) center no-repeat;
+  position: relative;  /* put mouseover position inside bubble */
+  top: -50px;
+  left: -50px;
 }
 
 .city-bubbles__city {
@@ -183,7 +200,7 @@ header {
   margin-left: 180px;
 }
 
-.sign-up__button {
+.sign-up__button { /*create close button*/
   border: none;
   height: 40px;
   width: 250px;
@@ -203,8 +220,10 @@ header {
   color: white;
 }
 
-footer {
-  display: none;
+footer { 
+  position: fixed;
+  bottom: 0;
+  left: 20px;
 }
 
 .about-content {
